@@ -1,0 +1,31 @@
+table, td {
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+img {
+    height: 100px;
+}
+table {
+    font-family: 'Times New Roman', Times, serif;
+    float: unset;
+}
+body {
+background: linear-gradient(to bottom, #1e5799 0%,#207cca 0%,#207cca 0%,#2989d8 5%,#ffffff 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ffffff',GradientType=0 );
+}
+h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+p {
+    margin: auto;
+    text-align: center;
+}
+a {
+    margin: auto;
+    text-align: center;
+}
