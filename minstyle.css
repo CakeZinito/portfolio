@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white
+}
+
+.aid{
+    float: right;
+    margin: auto;
+    text-align: right;
+}
+
+div {
+    right: 0;
+    top: 0;
+    Position:relative;
+    Position:absolute;
+}
