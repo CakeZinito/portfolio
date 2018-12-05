@@ -15,22 +15,36 @@ table {
     float: unset;
 }
 .age {
-    float: left;
-    width: 80%;
+    float: inherit;
+    width: 10%;
     padding: 0 20px;
     overflow: hidden;
-    border: black solid 10px;
+    border: black solid 2px;
+}
+.age1 {
+    float: inherit;
+    width: 50%;
+    padding: 0 20px;
+    overflow: hidden;
+    border: black solid 2px;
 }
 body {
-background: linear-gradient(to bottom, #1e5799 0%,#207cca 0%,#207cca 0%,#2989d8 5%,#ffffff 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#ffffff',GradientType=0 );
+    background: rgb(31,127,163);
+    background: -moz-linear-gradient(top, rgb(31,127,163) 0%, rgb(31,127,163) 0%, rgb(40,176,214) 18%, rgb(255,255,255) 100%);
+    background: -webkit-linear-gradient(top, rgb(31,127,163) 0%,rgb(31,127,163) 0%,rgb(40,176,214) 18%,rgb(255,255,255) 100%);
+    background: linear-gradient(to bottom, rgb(31,127,163) 0%,rgb(31,127,163) 0%,rgb(40,176,214) 18%,rgb(255,255,255) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f7fa3', endColorstr='#ffffff',GradientType=0 );
 }
+
 h1 {
-    padding: 30px;
+    padding: 6px;
     outline: solid green 5px;
-    text-align: center;
+    text-align: left;
     font-size: 35px;
     color: black;
+    background: white;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
 }
 p {
     margin: auto;
@@ -39,4 +53,17 @@ p {
 a {
     margin: auto;
     text-align: center;
+}
+
+div {
+    margin: auto;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+}
+
+
+.aid{
+    float: right;
+    margin: auto;
+    text-align: right;
 }
