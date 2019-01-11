@@ -4,14 +4,22 @@ body {
 }
 
 .aid{
-    float: right;
+    float: left;
     margin: auto;
-    text-align: right;
+    text-align: left;
 }
 
 div {
-    right: 0;
-    top: 0;
-    Position:relative;
-    Position:absolute;
+    
+    Position: static;
+    float: inherit;
+    width: 30%;
+    margin: auto;
+    top: 1px;
+}
+.sticky{
+    position: sticky;
+}
+.right{
+    float: right;
 }
